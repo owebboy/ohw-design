@@ -13,8 +13,16 @@
 <body>
   <div class="page">
     <header>
-      <h1 class="title">{{ title }}</h1>
+      <h2 class="user">Oliver Pope</h2>
     </header>
+    <div class="content">
+      <form action="/upload" method="post" class="sexy" enctype="multipart/form-data">
+    	  <input type="file" name="sexy" id="sexy" class="file">
+    	  <button class="btn swag">upload that swag!</button>
+      </form>
+
+      <a href="/logout" class="warn link">Logout</a>
+    </div>
   </div>
 </body>
 </html>

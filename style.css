@@ -3,7 +3,7 @@
   STYLE.CSS
 
 */
-/* COMMON    ---------------------- */
+/* COMMON ---------------------- */
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -12,40 +12,86 @@
 
 html {
   font: 400 1em "Helvetica Neue", "Hevetica", sans-serif;
-  background: -webkit-linear-gradient(0deg, #17AEE7, #202020);
-  background: linear-gradient(90deg, #17AEE7, #202020);
-  height: 100vh;
-  color: #282828;
-  -webkit-animation: hue 60s infinite linear;
-          animation: hue 60s infinite linear; }
+  color: #000; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700; }
 
-/* PAGE      ---------------------- */
+a {
+  color: #55ACEE;
+  -webkit-transition: all 0.5s;
+          transition: all 0.5s; }
+  a:hover {
+    color: #147ec9; }
+
+/* PAGE ---------------------- */
 .page {
-  margin: 3em 20%; }
+  margin: 3em 5%; }
+  @media (device-width: 320px) {
+    .page {
+      margin: 3em 0; } }
 
 .title {
   padding-top: 0.5em;
   padding-bottom: 0.3em;
-  font-size: 3.5em; }
+  font-size: 3.5em;
+  color: #282828; }
 
-/* MEDIA     ---------------------- */
-/* ANIMATION ---------------------- */
-@-webkit-keyframes hue {
-  from {
-    -webkit-filter: hue-rotate(0deg);
-            filter: hue-rotate(0deg); }
+.btn {
+  display: inline-block;
+  padding: 1em;
+  -webkit-transition: all 0.5s;
+          transition: all 0.5s;
+  text-decoration: none; }
 
-  to {
-    -webkit-filter: hue-rotate(-360deg);
-            filter: hue-rotate(-360deg); } }
-@keyframes hue {
-  from {
-    -webkit-filter: hue-rotate(0deg);
-            filter: hue-rotate(0deg); }
+.twitter {
+  background: #7CC7E8;
+  color: #fff;
+  font-weight: 500; }
+  .twitter:hover {
+    background: #26a3d8;
+    color: #fff; }
 
-  to {
-    -webkit-filter: hue-rotate(-360deg);
-            filter: hue-rotate(-360deg); } }
+.about {
+  padding: 4em 0; }
+
+.about h3 {
+  padding-top: 1em; }
+
+.warn {
+  background: red;
+  padding: 1em;
+  margin: 10px 0;
+  color: #fff; }
+
+.user {
+  display: inline-block;
+  font-style: italic; }
+
+.file {
+  padding-top: 3em;
+  padding-bottom: 10px; }
+
+.swag {
+  display: block;
+  margin: 10px 0;
+  padding: 1em;
+  background: #000;
+  color: #fff;
+  border: 0;
+  -webkit-transition: all 0.5s;
+          transition: all 0.5s;
+  font-size: 1.5em;
+  font-weight: 700; }
+  .swag:hover {
+    color: #000;
+    background: #fff; }
+
+.link {
+  display: inline-block;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center; }
+  .link:hover {
+    color: #fff;
+    background: #990000; }
