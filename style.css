@@ -1,0 +1,51 @@
+/*
+
+  STYLE.CSS
+
+*/
+/* COMMON    ---------------------- */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0; }
+
+html {
+  font: 400 1em "Helvetica Neue", "Hevetica", sans-serif;
+  background: -webkit-linear-gradient(0deg, #17AEE7, #202020);
+  background: linear-gradient(90deg, #17AEE7, #202020);
+  height: 100vh;
+  color: #282828;
+  -webkit-animation: hue 60s infinite linear;
+          animation: hue 60s infinite linear; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700; }
+
+/* PAGE      ---------------------- */
+.page {
+  margin: 3em 20%; }
+
+.title {
+  padding-top: 0.5em;
+  padding-bottom: 0.3em;
+  font-size: 3.5em; }
+
+/* MEDIA     ---------------------- */
+/* ANIMATION ---------------------- */
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+            filter: hue-rotate(0deg); }
+
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+            filter: hue-rotate(-360deg); } }
+@keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+            filter: hue-rotate(0deg); }
+
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+            filter: hue-rotate(-360deg); } }

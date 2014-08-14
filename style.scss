@@ -1,0 +1,19 @@
+/*
+
+  STYLE.CSS
+
+*/
+
+/* COMMON    ---------------------- */
+*, *:before, *:after { box-sizing: border-box; margin: 0; }
+html { font: 400 1em "Helvetica Neue", "Hevetica", sans-serif; background: linear-gradient(90deg, #17AEE7, #202020); height: 100vh; color: #282828; animation: hue 60s infinite linear; }
+h1, h2, h3, h4, h5, h6 { font-weight: 700; }
+
+/* PAGE      ---------------------- */
+.page { margin: 3em 20%; }
+.title { padding: { top: .5em; bottom: .3em; } font: { size: 3.5em; } }
+
+/* MEDIA     ---------------------- */
+
+/* ANIMATION ---------------------- */
+@keyframes hue { from { filter: hue-rotate(0deg); } to { filter: hue-rotate(-360deg); } }
