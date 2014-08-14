@@ -11,9 +11,3 @@ Created by Oliver Pope, ohw is a file uploader that makes it super easy to share
 - Easy Upload
 - Simple design
 - Modern
-
-## Author
-
-[Oliver Pope]('https://owebboy.com')
-[Github]('https://github.com/owebboy')
-[Twitter]('https://twitter.com/owebboy')
